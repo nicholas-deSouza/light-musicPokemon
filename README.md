@@ -43,8 +43,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Shows everything required except user losing, shows every optional applicable except the 3 mistakes![image](https://user-images.githubusercontent.com/64615525/112252027-ae922980-8c32-11eb-9def-ab025664dcb6.png)
-](https://recordit.co/tzd12sRhA2)
+![](https://recordit.co/tzd12sRhA2)
 
 ![Shows player losing after 3 mistakes] https://recordit.co/jz2X6947aS
 
