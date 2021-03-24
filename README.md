@@ -43,7 +43,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![d](https://recordit.co/tzd12sRhA2)
+![https://recordit.co/tzd12sRhA2]
 
 ![Shows player losing after 3 mistakes]https://recordit.co/jz2X6947aS
 
