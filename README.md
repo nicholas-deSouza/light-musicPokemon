@@ -42,8 +42,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![Shows everything required except user losing, shows every optional applicable except the 3 mistakes]https://recordit.co/tzd12sRhA2
+
 ![Shows player losing after 3 mistakes] https://recordit.co/jz2X6947aS
+
 ![Shows what happens when time runs out]https://recordit.co/arsGwGJJ0P
 
 
