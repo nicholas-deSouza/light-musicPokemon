@@ -43,11 +43,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://recordit.co/tzd12sRhA2.gif)
+![Shows everything required except user losing, shows every optional applicable except the 3 mistakes!](https://recordit.co/tzd12sRhA2.gif)
 
-![Shows player losing after 3 mistakes]https://recordit.co/jz2X6947aS
+![Shows player losing after 3 mistakes](https://recordit.co/jz2X6947aS.gif)
 
-![Shows what happens when time runs out]https://recordit.co/arsGwGJJ0P
+![Shows what happens when time runs out](https://recordit.co/arsGwGJJ0P.gif)
 
 
 ## Reflection Questions
