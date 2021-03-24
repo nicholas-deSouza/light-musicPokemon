@@ -50,13 +50,21 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 [Timeout in JavaScript - https://www.sitepoint.com/delay-sleep-pause-wait/]
+
 [https://programminghead.com/how-to-play-audio-in-html-using-javascript/]
+
 [Pokemon sounds - https://forums.pokemmo.eu/index.php?/topic/59823-mod-anime-sounds-and-cries-soundpacktv/]
+
 [Pokemon intro - https://www.myinstants.com/instant/whos-that-pokemon-90928/]
+
 [General information for HTML, CSS, JavaScript - https://www.w3schools.com/]
+
 [https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random]
+
 [https://www.w3schools.com/jsref/met_win_setinterval.asp]
+
 [https://www.w3schools.com/jsref/met_win_clearinterval.asp]
+
 [Resume audiocontext - https://developer.mozilla.org/en-US/docs/Web/API/AudioContext]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
