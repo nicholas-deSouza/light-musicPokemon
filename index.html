@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    <h1>
+<!--       Who's that Pokémon? -->
+      <img id = "logo" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2FNicePng_pokemon-clipart-png_3371145.png?v=1616532802903">
+      
+    </h1>
+    
+    <p>
+      Gotta catch 'em all!
+    </p>
+    
+    <div id = "timer" class = "hidden" >
+     
+    </div>
+    
+    <button id="startBtn" onclick="startGame(), startIntro()" >
+      Start
+      <audio intro src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fwhos-that-pokemon_.mp3?v=1616185129345" id="intro"></audio>
+    </button>
+    
+    <button id="stopBtn" class = "hidden" onclick = "stopGame()" >
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1), showImage(1)" onmouseup="stopTone(), stopImage(1)" >
+        <img id = "picture1" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fbulbasaur.png?v=1616105856081" alt="Bulbasaur">
+          <audio bulb src ="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F1.wav?v=1616185607993" id="audio1"></audio>
+            </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2), showImage(2)" onmouseup="stopTone(), stopImage(2)" >
+        <img id = "picture2" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fcharmander.png?v=1616105858640" alt="Charmander">
+          <audio char src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F4.wav?v=1616185624859" id="audio2"></audio>
+            </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3), showImage(3)" onmouseup="stopTone(), stopImage(3)" >
+        <img id = "picture3" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fsquirtle.png?v=1616105868722" alt="Squirtle">
+          <audio squi src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F7.wav?v=1616185632454" id="audio3"></audio>
+            </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4), showImage(4)" onmouseup="stopTone(), stopImage(4)" >
+        <img id = "picture4" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fpidgey.png?v=1616105863757" alt="Pidgey">
+          <audio pidg src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F16.wav?v=1616185640410" id="audio4"></audio>
+            </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5), showImage(5)" onmouseup="stopTone(), stopImage(5)" >
+        <img id = "picture5" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Fpikachu.png?v=1616105865756" alt="Pikachu">
+          <audio pika src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F25.wav?v=1616185653217" id="audio5"></audio>
+            </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6), showImage(6)" onmouseup="stopTone(), stopImage(6)" >
+        <img id = "picture6" class = "hidden" src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2Feevee.png?v=1616105861633" alt="Eevee">
+          <audio eevee src="https://cdn.glitch.com/689f1b38-1893-435c-84e2-bf1850540ea1%2F133.wav?v=1616185659087" id="audio6"></audio>
+            </button>
+    </div>
+  </body>
+</html>
